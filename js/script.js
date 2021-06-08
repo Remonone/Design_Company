@@ -11,7 +11,7 @@ window.onscroll = function(){scrollImages()}
     let buttons = document.querySelectorAll(".main-list__item");
     function changeScreen(num){
       if(buttons[num].classList.contains("active")) return 1;
-      document.querySelector(':root').style.setProperty('--background', 'url(../assets/bg'+ num +'.png)');
+      document.querySelector(':root').style.setProperty('--background', 'url(../Design_Company/assets/bg'+ num +'.png)');
       background = document.querySelector("main");
       background.style.background = "url(../assets/bg" + num + ");";
       for(let button of buttons){
