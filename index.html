@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Freebie</title>
+</head>
+<body>
+  <main>
+    <section class="main">
+      <div class="container">
+          <header class="main-header">
+
+                <a href="#" class="main-header-brand">SQWD</a>
+                <nav class="main-header-nav">
+                  <a class="main-header-nav__item" href="#">Works</a>
+                  <a class="main-header-nav__item" href="#">About</a>
+                  <a class="main-header-nav__item" href="#">Services</a>
+                  <a class="main-header-nav__item" href="#">Blog</a>
+                  <a class="main-header-nav__item" href="#">Contact</a>
+                </nav>
+          </header>
+          <h1 class="main-title">Where Great Ideas Come To Life</h1>
+          <h5 class="main-subtitle">Passionate creative studio helping startups grow their business!</h5>
+
+        </div>
+        <ul class="main-list">
+          <li class="main-list__item active" onclick="changeScreen(0)">01</li>
+          <li class="main-list__item" onclick="changeScreen(1)">02</li>
+          <li class="main-list__item" onclick="changeScreen(2)">03</li>
+        </ul>
+    </section>
+    <section class="info">
+      <div class="container info__container">
+        <div class="info-image">
+            <div class="info-image__item"><img src="assets/window.png" alt=""></div>
+            <div class="info-image__item"><img src="assets/roof.png" alt=""></div>
+        </div>
+        <h2 class="info__title">We are <br/><span>the sqwd</span></h2>
+        <div class="info-text">
+          <p class="info-text__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          </p>
+          <p class="info-text__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          </p>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="services" id="serviceSection">
+      <div class="container services__container">
+          <h2 class="services__title">Our Services</h2>
+          <div class="services-card">
+            <div class="services-card-item" id="brandCard">
+              <div class="services-card-item-container">
+                <div class="services-card-item-head">
+                  <h3 class="services-card-item-head__title">brand</h3>
+                  <span class="services-card-item-head-frame"><img src="assets/brand.svg" alt=""></span>
+                </div>
+
+                <p class="services-card-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="#" class="services-card-item__button">Read More</a>
+              </div>
+            </div>
+            <div class="services-card-item" id="designCard">
+              <div class="services-card-item-container">
+                <div class="services-card-item-head">
+                  <h3 class="services-card-item-head__title">design</h3>
+                  <span class="services-card-item-head-frame"><img src="assets/design.svg" alt=""></span>
+                </div>
+
+                <p class="services-card-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="#" class="services-card-item__button">Read More</a>
+              </div>
+            </div>
+            <div class="services-card-item" id="devCard">
+              <div class="services-card-item-container">
+                <div class="services-card-item-head">
+                  <h3 class="services-card-item-head__title">development</h3>
+                  <span class="services-card-item-head-frame"><img src="assets/code.svg" alt=""></span>
+                </div>
+                <p class="services-card-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="#" class="services-card-item__button">Read More</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </section>
+    <section class="works">
+        <div class="container works__container">
+          <div class="works-header">
+            <h2 class="works-header__title">Latest Works</h2>
+            <nav class="works-header-nav">
+              <a href="#" class="works-header-nav__button works-active">All</a>
+              <a href="#" class="works-header-nav__button">Web Design</a>
+              <a href="#" class="works-header-nav__button">Branding</a>
+              <a href="#" class="works-header-nav__button">Photography</a>
+              <a href="#" class="works-header-nav__button">Illustration</a>
+            </nav>
+          </div>
+          <div class="works-illustration">
+            <div class="works-illustration-left">
+              <div class="works-illustration-item">
+                <h3 class="works-illustration-item__title">A kitten`s life</h3>
+                <div class="works-illustration-item-card">
+                  <img src="assets/kitty.png" alt="">
+                  <div class="works-illustration-item-card-info">
+                    <h4 class="works-illustration-item-card-info__title">Photography</h4>
+                    <p class="works-illustration-item-card-info__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="works-illustration-item-card-info__button">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="works-illustration-item">
+                <h3 class="works-illustration-item__title">Apple's lost magic</h3>
+                <div class="works-illustration-item-card">
+                  <img src="assets/laptop.png" alt="">
+                  <div class="works-illustration-item-card-info">
+                    <h4 class="works-illustration-item-card-info__title">Photography</h4>
+                    <p class="works-illustration-item-card-info__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="works-illustration-right">
+              <div class="works-illustration-item">
+                <h3 class="works-illustration-item__title">100 years photography</h3>
+                <div class="works-illustration-item-card">
+                  <img src="assets/photography.png" alt="">
+                  <div class="works-illustration-item-card-info">
+                    <h4 class="works-illustration-item-card-info__title">Photography</h4>
+                    <p class="works-illustration-item-card-info__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="works-illustration-item">
+                <h3 class="works-illustration-item__title">Groovemade Products For Mac</h3>
+                <div class="works-illustration-item-card">
+                  <img src="assets/mac.png" alt="">
+                  <div class="works-illustration-item-card-info">
+                    <h4 class="works-illustration-item-card-info__title">Photography</h4>
+                    <p class="works-illustration-item-card-info__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="works__button">view more</a>
+        </div>
+    </section>
+    <section class="team">
+      <div class="container team__container">
+        <div class="team__title">The Team</div>
+        <ul class="team-list">
+          <li class="team-list-item">
+              <div class="team-list-item-info">
+                <h4 class="team-list-item-info__name">Tom Jones</h4>
+                <h5 class="team-list-item-info__post">Creative Director</h5>
+                <p class="team-list-item-info__quote">Create with simplicity in mind!</p>
+              </div>
+          </li>
+          <li class="team-list-item">
+
+              <div class="team-list-item-info">
+                <h4 class="team-list-item-info__name">Michael Fraup</h4>
+                <h5 class="team-list-item-info__post">Creative Director</h5>
+                <p class="team-list-item-info__quote">Create with simplicity in mind!</p>
+              </div>
+          </li>
+          <li class="team-list-item">
+            <div class="team-list-item-info">
+              <h4 class="team-list-item-info__name">Tim Cahill</h4>
+              <h5 class="team-list-item-info__post">Creative Director</h5>
+              <p class="team-list-item-info__quote">Create with simplicity in mind!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container">
+        <div class="review-box">
+          <p class="review-box__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="review-box-img"><img src="assets/quote.svg" alt=""></div>
+          <h3 class="review-box-name"><span class="review-box-name_bold">David James</span> / Web Design</h3>
+          <img src="assets/stars.png" alt="" class="review-box__rating">
+          <div class="review-box-arrows">
+            <img src="assets/left.svg" alt="">
+            <img src="assets/right.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-work">
+      <div class="footer-work-tell">
+        <img src="assets/case.svg" alt="">
+        <div class="footer-work-tell__title">Want to work together?</div>
+        <div class="footer-work-tell__descr">Amazing. Tell us about your project!</div>
+      </div>
+      <div class="footer-work-contact">
+        <img src="assets/mail.svg" alt="">
+        <div class="footer-work-contact__title">Contact us</div>
+        <div class="footer-work-contact__descr">Get in touch</div>
+      </div>
+    </div>
+    <div class="footer-info">
+      <a href="#" class="footer-info-brand">SQWD</a>
+      <p class="footer-info__adress">3rd Floor, Santa Monica Beach, CA, San Francisco</p>
+      <p class="footer-info__mail">(359) 0 123 456 789 - info@yourmail.com</p>
+      <ul class="footer-info-social">
+        <li class="footer-info-social__item"><img src="assets/facebook.svg" alt=""></li>
+        <li class="footer-info-social__item"><img src="assets/twitter.svg" alt=""></li>
+        <li class="footer-info-social__item"><img src="assets/pinterest.svg" alt=""></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__info">Copyright 2016 - All Rights Reserved - Designed by JD</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
